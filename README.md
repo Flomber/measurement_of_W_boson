@@ -38,7 +38,7 @@ Determine the mass \( $m_W$ \) and decay width \( $\Gamma_W$ \) of the W boson u
 
 - **W decay mode:** W → μ ± ν_μ (muonic decay)
 - **Branching ratio:** ~10.8% per charge
-- **Choice rationale:** 
+- **Choice rationale:**
   - Simple two-body final state (muon + neutrino) suitable for transverse mass analysis
   - Standard channel used in LHC W mass measurements (ATLAS, CMS)
   - Clean signature in ideal detector
@@ -46,7 +46,7 @@ Determine the mass \( $m_W$ \) and decay width \( $\Gamma_W$ \) of the W boson u
 #### Reconstruction Method
 
 1. **Particles reconstructed:**
-   - **Muon:** Record 4-momentum (p_T, η, φ, E)
+   - **Muon:** Record 4-momentum ($p_T$, η, φ, E)
    - **Neutrino:** Inferred from missing transverse momentum (MET)
      - In ideal detector, neutrino carries exactly the missing transverse energy
      - Transverse momentum obtained from momentum conservation: $\vec{p_T^\nu} = -\vec{p_T^\mu}$ (in transverse plane)
@@ -54,9 +54,9 @@ Determine the mass \( $m_W$ \) and decay width \( $\Gamma_W$ \) of the W boson u
 2. **Kinematic variable for measurement:**
    - **Transverse mass ($m_T$):** The primary observable for W mass and width extraction
    - Definition: $m_T = \sqrt{2 p_T^\mu p_T^\nu (1 - \cos \Delta\phi)}$
-     - p_T^μ: muon transverse momentum
-     - p_T^ν: neutrino transverse momentum
-     - Δφ: azimuthal angle difference between muon and neutrino
+     - $p_T^\mu$: muon transverse momentum
+     - $p_T^\nu$: neutrino transverse momentum
+     - $\Delta\phi$: azimuthal angle difference between muon and neutrino
    - **Why transverse mass:**
      - Cannot measure neutrino longitudinal momentum → cannot reconstruct full W mass event-by-event
      - $m_T$ distribution peaks near $m_W$ and has shape sensitive to W width
